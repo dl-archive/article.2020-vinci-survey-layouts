@@ -1,0 +1,62 @@
+
+
+\usepackage{microtype}
+\usepackage{tabularx}
+\usepackage{enumitem}
+\usepackage{csquotes}
+\usepackage{tikz}
+\usepackage{pifont}
+\usepackage{amsmath}
+\usepackage{calc}
+\usepackage{booktabs}
+\usepackage{ifthen}
+\usepackage{wrapfig}
+\usetikzlibrary{patterns}
+\usetikzlibrary{matrix}
+\usetikzlibrary{arrows}
+\usetikzlibrary{fit}
+\usetikzlibrary{calc}
+\usetikzlibrary{positioning}
+
+\usepackage{multirow}
+\usepackage{makecell}
+
+\newcommand*\rot{\rotatebox{90}}
+\newcommand*\rotc{\rotatebox[origin=rb]{270}}
+\newcommand*\OK{$\bullet$}
+\newcommand*\UP{\ding{218}}
+\newcommand*\DOWN{\ding{216}}
+
+\newcommand*\PARTIAL{$\circ$}
+\newcommand*\NA{\cellcolor{gray!40}}
+\newcommand*\UNKNOWN{--}
+
+\definecolor{tablelightgray}{gray}{0.8}
+\newcommand*\tls{\color{tablelightgray}\vrule width 0.4pt} %
+
+\newcommand{\mc}[2]{\multicolumn{#1}{c|}{\makecell{#2}}} %
+\newcommand{\mct}[2]{\mc{#1}{\tiny #2}} %
+\newcommand{\rott}[1]{\rot{\tiny #1}}
+
+\newlength{\largestheaderlength}%
+
+\definecolor{applegreen}{rgb}{0.55, 0.71, 0.0}
+
+\newcommand{\pprelim}[1]{\color[rgb]{0.5,0.5,0.5}#1}
+\newcommand{\pfeedback}[1]{\color[rgb]{0.8,0.1,0.1}#1}
+\newcommand{\previsit}[1]{\color[rgb]{0.1,0.3,0.8}#1}
+\newcommand{\pfinal}[1]{\color{black}#1}
+
+\makeatletter
+\newcommand\queryfont{%
+	\f@size
+}
+\makeatother
+
+\newcommand{\addcite}{~\cite{?}}
+
+\newcommand*\Ts {$\mathcal{T}_{\mathrm{S}}$}
+\newcommand*\Tc {$\mathcal{T}_{\mathrm{C}}$}
+\newcommand*\Tie{$\mathcal{T}_{\mathrm{IE}}$}
+\newcommand*\Tmt{$\mathcal{T}_{\mathrm{MT}}$}
+\newcommand*\Th{$\mathcal{H}$}
