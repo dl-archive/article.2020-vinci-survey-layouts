@@ -4,7 +4,7 @@
 
 *Proceedings of the 13th International Symposium on Visual Information Communication and Interaction (VINCI '20)*, December 8–10, 2020, Eindhoven, Netherlands. ACM, pp. 1:1–9.
 
-DOI: [10.1145/3430036.3430041](https://doi.org/10.1145/3430036.3430041) · Author's version: [Zenodo](https://doi.org/10.5281/zenodo.24121573) · [ResearchGate](https://www.researchgate.net/publication/346565429)
+[![Version of record: 10.1145/3430036.3430041](https://img.shields.io/badge/Version_of_record-10.1145%2F3430036.3430041-007ec6)](https://doi.org/10.1145/3430036.3430041) [![Author's version: 10.5281/zenodo.24121573](https://img.shields.io/badge/Author%27s_version-10.5281%2Fzenodo.24121573-007ec6)](https://doi.org/10.5281/zenodo.24121573) · [ResearchGate](https://www.researchgate.net/publication/346565429)
 
 > This paper provides an overview of published treemap layout algorithms from 1991 to 2019 that were used for information visualization and computational geometry.
 > First, a terminology is outlined for the precise communication of tree-structured data and layouting processes.
